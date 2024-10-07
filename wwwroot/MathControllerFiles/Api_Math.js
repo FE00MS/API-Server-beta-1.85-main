@@ -199,11 +199,6 @@ document.getElementById("aide").addEventListener("click", function () {
     })
 });
 
-document.getElementById("index").addEventListener("click", function () {
-    window.location.href = "index.html";
-    console.log("fdwfd")
-});
-
 function factorial(n) {
     if (n === 0 || n === 1) {
         return 1;

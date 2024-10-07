@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test page</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script defer src="Api_Math.js"></script>
+    
 </head>
 <body>
     <h2>GET : Maths Endpoint<br> List of possible query strings :</h2>
@@ -34,4 +34,9 @@
 
     <button id="index">Retour</button>
 </body>
+<script defer>
+     document.getElementById("index").addEventListener("click", function () {
+        window.location.href = "index.html";
+      });
+</script>
 </html>
