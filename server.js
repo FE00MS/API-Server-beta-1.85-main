@@ -15,3 +15,6 @@ const server = createServer(async (req, res) => {
 });
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+//client et serveur glich sur le meme directorie
+//git et glicth 
